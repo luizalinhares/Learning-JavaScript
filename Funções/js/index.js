@@ -1,13 +1,3 @@
-/* Uma função JavaScript é um bloco de código projetado para executar uma tarefa específica
-
-é como uma pequena "fábrica" onde você faz uma entrada e ele te dá uma saída.
-
-Pode ser encarado como um "mini-programa" projetado para fazer uma tarefa que vai contribuir para todo o código.
-
-Uma função é executada quando algo a "invoca".
-
-
-*/
 
 //FUNÇÃO DE SOMA
 
