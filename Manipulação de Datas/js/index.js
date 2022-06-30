@@ -1,28 +1,26 @@
 /* manipular datas em javascript
 */
 
-// comando base para pegar a data
-
 let data = new Date();
-//console.log(data); //anotação:imprime todas as informações da data de hoje
+//console.log(data);
 
 let ano = data.getFullYear();
-//console.log(ano);//anotação:pegar o ano atual com 4 digitos
+//console.log(ano);
 
 let mes = data.getMonth()
-//console.log(mes); // anotação: pegar o mes atual como numeros de 0 ate 11 sendo janeiro 0 e dezembro 11
+//console.log(mes);
 
 const mesesDoAno = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
 let mesEscrito = mesesDoAno[data.getMonth()]
 console.log(mesEscrito)
-//anotação: mostrar o mês no formato escrito
+
 
  let diaMes = data.getDate();//pegar o dia do mês
  console.log(diaMes);
 
  //pegar o dia da semana
  let diaSemana = data.getDay();
- console.log(diaSemana); //sendo segunda 0 e domingo 6
+ console.log(diaSemana);
 
  const diasDaSemana = ["Segunda","Terça","Quarta","Quinta","Sexta","Sabado"];
  let diaSemanaEscrito = diasDaSemana[data.getDay()];
@@ -53,9 +51,9 @@ console.log(mesEscrito)
   let dataBR = data.toLocaleString('pt-BR', {timeStyle:'short'});// só a hora
   console.log(dataBR)*/
 
-  //pegar os valores separados 
-  
 
+
+  //pegar os valores separados 
   d = new Date();
   diaMes = d.getDate();
   mes = d.getMonth() + 1;
@@ -67,7 +65,7 @@ console.log(mesEscrito)
   console.log(dataPadraoBR);
 
 
-//comparar datas maior ou menor ex:vencimentos
+//comparar datas
 
 var hoje = new Date();
 var vencimento = new Date(2023/0/12); //vence em 12 de janeiro de 2023
